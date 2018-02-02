@@ -10,12 +10,21 @@ V rámci aplikace bude možné vytvořit a obsloužit tři typy pravidel, a to �
 Literatura:
 
 Osmani, V., Carreras, I., Matic, A. et al. J Ambient Intell Human Comput (2014) 5: 297. https://doi.org/10.1007/s12652-012-0171-6
+
 Rawassizadeh, R., Tomitsch, M., Wac, K. et al. Pers Ubiquit Comput (2013) 17: 621. https://doi.org/10.1007/s00779-012-0511-8
+
 Grønli, TM., Ghinea, G. & Younas, M. Pers Ubiquit Comput (2014) 18: 883. https://doi.org/10.1007/s00779-013-0698-3
+
 Otebolaku, A.M. & Andrade, M.T. J Ambient Intell Human Comput (2015) 6: 13. https://doi.org/10.1007/s12652-014-0234-y
+
 Chittaranjan, G., Blom, J. & Gatica-Perez, D. Pers Ubiquit Comput (2013) 17: 433. https://doi.org/10.1007/s00779-011-0490-1
+
 Zhou, J., Gilman, E., Palola, J. et al. Pers Ubiquit Comput (2011) 15: 291. https://doi.org/10.1007/s00779-010-0333-5
+
 Orsini, G., Bade, D. & Lamersdorf, W. J Ambient Intell Human Comput (2017). https://doi.org/10.1007/s12652-017-0526-0
+
 Santos, I.M., Bocheco, O. & Habak, C. Educ Inf Technol (2017). https://doi.org/10.1007/s10639-017-9625-y
+
 Degrandsart, S., Demeyer, S., Van den Bergh, J. et al. Softw Syst Model (2014) 13: 191. https://doi.org/10.1007/s10270-012-0239-y
+
 Gil, M., Giner, P. & Pelechano, V. Pers Ubiquit Comput (2012) 16: 543. https://doi.org/10.1007/s00779-011-0414-0
