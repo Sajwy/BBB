@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/base_padding"
+    android:paddingLeft="@dimen/dialog_TRL_padding"
+    android:paddingRight="@dimen/dialog_TRL_padding">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wifiPromtDaU"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:theme="@style/AppTheme"
+        android:layout_marginBottom="@dimen/dialog_wifi_margin_bottom"
+        android:id="@+id/rbWifiDostAUloz" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_marginLeft="@dimen/dialog_wifi_spin_margin_left"
+        android:layout_marginBottom="@dimen/dialog_wifi_margin_bottom"
+        android:theme="@style/AppTheme"
+        android:id="@+id/spinWifi" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wifiPromtRucne"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:theme="@style/AppTheme"
+        android:id="@+id/rbWifiVlastni" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:theme="@style/EditTextStyle"
+        android:textColorHint="@color/colorGrey"
+        android:layout_marginLeft="@dimen/dialog_wifi_et_margin_left"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/etInput" />
+
+</LinearLayout>

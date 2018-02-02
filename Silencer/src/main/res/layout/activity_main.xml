@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/base_padding"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uvodni"
+        android:layout_marginBottom="@dimen/base_padding"
+        android:layout_marginTop="@dimen/main_iv_margin_top"
+        android:id="@+id/ivUvodni" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:weightSum="3"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nove"
+                    android:id="@+id/ivNovePravidlo"
+                    />
+
+                <TextView
+                    android:text="@string/NPbtn_name"
+                    android:textColor="@color/colorBlack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/main_tv_margin_top"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/mainbutton_text_size"
+                    android:id="@+id/tvNovePravidlo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/seznam"
+                    android:id="@+id/ivSeznamPravidel" />
+
+                <TextView
+                    android:text="@string/SMPbtn_name"
+                    android:textColor="@color/colorBlack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/main_tv_margin_top"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/mainbutton_text_size"
+                    android:id="@+id/tvSeznamPravidel" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ivZapnoutVypnoutObsluhu" />
+
+                <TextView
+                    android:textColor="@color/colorBlack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/main_tv_margin_top"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/mainbutton_text_size"
+                    android:id="@+id/tvZapnouVypnoutObsluhu" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/napoveda"
+                    android:id="@+id/ivNapoveda" />
+
+                <TextView
+                    android:text="@string/NAPbtn_name"
+                    android:textColor="@color/colorBlack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/main_tv_margin_top"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/mainbutton_text_size"
+                    android:textAlignment="center"
+                    android:id="@+id/tvNapoveda" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ukoncit"
+                    android:id="@+id/ivExit" />
+
+                <TextView
+                    android:text="@string/Kbtn_name"
+                    android:textColor="@color/colorBlack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/main_tv_margin_top"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/mainbutton_text_size"
+                    android:textAlignment="center"
+                    android:id="@+id/tvExit" />
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

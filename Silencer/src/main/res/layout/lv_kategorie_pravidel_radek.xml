@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingTop="@dimen/lv_kp_radek_topbottom"
+    android:paddingRight="@dimen/base_padding"
+    android:paddingBottom="@dimen/lv_kp_radek_topbottom">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivKategorie" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/tvRadek"
+        android:layout_marginLeft="@dimen/lv_left_padding"
+        android:textSize="@dimen/list_text_size_uroven2"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorBlack">
+    </TextView>
+
+</LinearLayout>

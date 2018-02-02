@@ -1,0 +1,33 @@
+<resources>
+    <dimen name="base_padding">10dp</dimen>
+    <dimen name="list_uroven1_padding">15dp</dimen>
+    <dimen name="list_uroven2_padding">10dp</dimen>
+    <dimen name="list_rightleft_padding">5dp</dimen>
+    <dimen name="list_preferences_padding">15dp</dimen>
+    <dimen name="explv_group_left_padding">20dp</dimen>
+    <dimen name="mainbutton_text_size">16sp</dimen>
+    <dimen name="list_text_size_uroven1">22sp</dimen>
+    <dimen name="list_text_size_uroven2">19sp</dimen>
+    <dimen name="list_text_size_uroven3">13sp</dimen>
+    <dimen name="explv_child_left_padding">25dp</dimen>
+    <dimen name="explv_group_tv_left_margin">5dp</dimen>
+    <dimen name="explv_child_tv_right_padding">5dp</dimen>
+    <dimen name="explv_child_ll_right_padding">5dp</dimen>
+    <dimen name="explv_child_sw_right_padding">10dp</dimen>
+    <dimen name="explv_child_imgv_right_padding">2dp</dimen>
+    <dimen name="explv_child_top_margin">2dp</dimen>
+    <dimen name="lv_left_padding">5dp</dimen>
+    <dimen name="sw_layoutright_margin">10dp</dimen>
+    <dimen name="dialog_TRL_padding">20dp</dimen>
+    <dimen name="dialog_B_padding">15dp</dimen>
+    <dimen name="dialog_wifi_margin_bottom">5dp</dimen>
+    <dimen name="dialog_wifi_spin_margin_left">10dp</dimen>
+    <dimen name="dialog_wifi_et_margin_left">15dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="kp_dialog_top">5dp</dimen>
+    <dimen name="kp_dialog_bottom">10dp</dimen>
+    <dimen name="lv_kp_radek_topbottom">17dp</dimen>
+    <dimen name="main_tv_margin_top">5dp</dimen>
+    <dimen name="main_iv_margin_top">20dp</dimen>
+</resources>

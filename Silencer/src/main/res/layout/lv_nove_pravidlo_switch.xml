@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="@dimen/list_preferences_padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"
+        android:paddingLeft="@dimen/lv_left_padding"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/tvNadpis" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="@dimen/lv_left_padding"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/tvObsah"
+        android:layout_below="@+id/tvNadpis"
+        />
+
+    <Switch
+        android:id="@+id/swID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:theme="@style/AppTheme"
+        android:clickable="false"
+        android:layout_marginRight="@dimen/sw_layoutright_margin"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

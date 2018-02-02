@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0"
+    android:paddingLeft="@dimen/list_uroven2_padding"
+    android:paddingRight="@dimen/list_uroven2_padding"
+    android:paddingTop="@dimen/list_rightleft_padding"
+    android:paddingBottom="@dimen/list_rightleft_padding"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/explv_child_top_margin"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvPravidlo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_weight="1"
+            android:paddingRight="@dimen/explv_child_tv_right_padding"
+            android:paddingLeft="@dimen/explv_child_left_padding"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/list_text_size_uroven2"/>
+
+        <TextView
+            android:id="@+id/tvHodnotyPravidla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:paddingRight="@dimen/explv_child_tv_right_padding"
+            android:paddingLeft="@dimen/explv_child_left_padding"
+            android:textSize="@dimen/list_text_size_uroven3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingRight="@dimen/explv_child_ll_right_padding">
+
+        <Switch
+            android:id="@+id/switchStav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/explv_child_sw_right_padding"
+            />
+
+        <ImageView
+            android:id="@+id/icSmaz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="0.75"
+            android:scaleY="0.75"
+            android:src="@drawable/ic_delete2"/>
+
+    </LinearLayout>
+
+</LinearLayout>
